@@ -44,15 +44,30 @@ A full-stack Expense Tracker built with **React.js**, **Node.js**, **Express**, 
 
 ---
 
-### Backend Setup
-
-1. Navigate to the backend folder:
-
-```bash
-cd backend
-```
-2. Install dependencies:
-```bash
-npm install
-```
-3.
+1. Install frontend dependencies
+   ```bash
+   cd frontend
+   npm install
+   ```
+2. Install backend dependencies
+   ```bash
+   cd ../backend
+   npm install
+   ```
+3. Set up Environment Variables
+     - Create a .env file inside the server/ directory and add the following:
+       - PORT=5000
+       - MONGO_URI=your_mongodb_connection_string
+       - JWT_SECRET=your_jwt_secret
+     - If you have environment-specific frontend URLs or API endpoints, you may also configure .env in the frontend/ directory.
+4. Start the application:
+     Start the backend server:
+     ```bash
+     cd backend
+     nodemon server.js
+     ```
+     Start the frontend app:
+     ```bash
+     cd frontend 
+     npm start
+     ```
