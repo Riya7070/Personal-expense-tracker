@@ -44,6 +44,8 @@ A full-stack Expense Tracker built with **React.js**, **Node.js**, **Express**, 
 
 ---
 
+### Setup Instructions
+
 1. Install frontend dependencies
    ```bash
    cd frontend
