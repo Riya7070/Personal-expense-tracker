@@ -35,8 +35,6 @@ A full-stack Expense Tracker built with **React.js**, **Node.js**, **Express**, 
 ---
 ## Preview
 
-![Login Page](./login%20page.png)
-![Signup Page](./signup.png)
 ![Dashboard](./dashboard.png)
 ![Expense List](./Expense%20list.png)
 
